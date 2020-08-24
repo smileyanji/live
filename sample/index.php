@@ -5,7 +5,7 @@ include_once './inc/config.inc' ;
 	<div>
 		<h2>Live Console-SDK</h2>
 		<div class="back">
-			<p><a href="./channels/ChannelList.php" > - list</a></p>
+			<p><a href="./channels/hannelList.php" > - list</a></p>
 		</div>
 	</div>
 </body>
