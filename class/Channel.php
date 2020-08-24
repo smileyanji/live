@@ -72,14 +72,14 @@ class Channel
 		return curl_exec ( $curl ) ;
 	}
 
-	public function ChannelList ()
+	public function channelList ()
 	{
 		$return = self::curl ( self::$channel , 'GET' , 'channels' ) ;
 		$array = json_decode ( $return , true ) ;
 		return $this -> returnMsg ( $array , __FUNCTION__ ) ;
 	}
 
-	public function ChannelDetail ( $id )
+	public function channelDetail ( $id )
 	{
 		$return = self::curl ( self::$channel . $id , 'GET' , 'channels' ) ;
 		$array = json_decode ( $return , true ) ;
