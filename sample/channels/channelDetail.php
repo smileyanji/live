@@ -64,7 +64,7 @@ $result = $Channel -> channelDetail ( $id ) ;
 		</table>
 	</div>
 	<div class="back">
-		<a href="./ChannelList.php">back</a>
+		<a href="./channelList.php">back</a>
 	</div>
 </body>
 <script src="../jquery.min.js"></script>
