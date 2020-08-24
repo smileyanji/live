@@ -4,7 +4,7 @@ if ( ! isset ( $_GET['id'] ) )
 	$id = $_POST['id'] ;
 else
 	$id = $_GET['id'] ;
-$result = $Channel -> ChannelDetail ( $id ) ;
+$result = $Channel -> channelDetail ( $id ) ;
 ?>
 <body>
 	<h2>Channels detail</h2>
