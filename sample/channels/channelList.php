@@ -39,7 +39,7 @@ $result = $Channel -> channelList () ;
 						echo "<td>{$v['template']}</td>" ;
 						echo "<td>{$v['publishing']}</td>" ;
 						echo "<td>{$v['created_at']}</td>" ;
-						echo "<td><a href='./ChannelDetail.php?id={$v['id']}'>Detail</a></td>" ;
+						echo "<td><a href='./channelDetail.php?id={$v['id']}'>Detail</a></td>" ;
 						echo "</tr>" ;
 					}
 				}
