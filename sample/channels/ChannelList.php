@@ -1,6 +1,6 @@
 <?php
 include_once '../inc/config.inc' ;
-$result = $Channel -> ChannelList () ;
+$result = $Channel -> channelList () ;
 ?>
 <body>
 	<h2>Channels list</h2>
