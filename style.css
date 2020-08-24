@@ -1,0 +1,52 @@
+body{
+	margin:2%;
+}
+.mailTable{
+	width: 70%;
+	border: 2px solid #E6EAEE;
+	margin-left:70px;
+}
+.mailTable tr th{
+	background-color: #EFF3F6;
+	width: 20% ;
+	height: 45px;
+	line-height: 35px;
+}
+.mailTable tr td{
+	width: 60%;
+	height: 45px;
+	line-height: 35px;
+	padding: 0 10px;
+}
+.back{margin:20px 51px;}
+.channel{
+	width: 85%;
+	margin-left:70px;
+	border: 2px solid #E6EAEE;
+}
+.channel th{
+	height: 50px;
+	background-color: #EFF3F6;
+	color: #393C3E;
+	width: 10%;
+}
+.channel td{
+	text-align:center;
+	vertical-align:middle;
+}
+.channel tr td{
+	box-sizing: border-box;
+	padding: 0 10px;
+	height: 50px;
+}
+
+.search{
+	margin:50px;
+}
+.search input{
+	margin-left:15px;
+}
+h2{
+	margin-left:50px;margin-top:50px
+}
+.div_head{}
