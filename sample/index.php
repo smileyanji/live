@@ -10,3 +10,4 @@ include_once './inc/config.inc' ;
 	</div>
 </body>
 <script src="./jquery.min.js"></script>
+</html>
