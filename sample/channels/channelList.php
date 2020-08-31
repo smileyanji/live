@@ -61,3 +61,4 @@ $result = $Channel -> channelList () ;
 	</div>
 </body>
 <script src="../jquery.min.js"></script>
+</html>
