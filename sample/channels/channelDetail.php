@@ -68,3 +68,4 @@ $result = $Channel -> channelDetail ( $id ) ;
 	</div>
 </body>
 <script src="../jquery.min.js"></script>
+</html>
