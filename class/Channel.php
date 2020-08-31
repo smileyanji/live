@@ -1,12 +1,6 @@
 <?php
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 /**
- * Description of Url
+ * Channel class
  *
  * @author zhoushiqi
  */
@@ -26,7 +20,7 @@ class Channel
 	private static $token ;
 	private static $channel ;
 
-//Connect api
+	//Connect api
 	public function __construct ( $setting )
 	{
 		self::$accesskeyId = $setting['accesskeyId'] ;
@@ -54,7 +48,7 @@ class Channel
 			curl_setopt ( $curl , CURLOPT_POSTFIELDS , $dataUse ) ;
 		}
 		else
-			curl_setopt ( $curl , CURLOPT_CUSTOMREQUEST , $way ) ;
+			curl_setopt ( $curl , CURLOPT_CUSTOMREQUEST , $method ) ;
 		curl_setopt ( $curl , CURLOPT_REFERER , $_SERVER['SERVER_NAME'] ) ;
 		if ( ! $type )
 		{
@@ -94,7 +88,7 @@ class Channel
 		if ( ! isset ( $response['Result'] ) )
 			return FALSE ;
 
-		if ( $this -> overtime ( $response -> Result ) )
+		if ( $this -> overtime ( $response['Result'] ) )
 		{
 			$param = array () ;
 			if ( $param1 )
